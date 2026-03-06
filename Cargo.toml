@@ -1,0 +1,9 @@
+[package]
+name = "compio-framed-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytemuck = { version = "1.25.0", features = ["derive"] }
+compio = { git = "https://github.com/compio-rs/compio", version = "0.18.0", features = ["io"] }
+libc = "0.2.182"
